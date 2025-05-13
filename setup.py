@@ -87,6 +87,7 @@ setup(
                       'types-requests',
                       'responses==0.10.12',
                       'tqdm',
-                      'urllib3'],
+                      'urllib3',
+                      'urlparse'],
     extras_require=extras,
 )
