@@ -86,6 +86,7 @@ setup(
                       'types-requests',
                       'responses==0.10.12',
                       'tqdm',
-                      'urllib3'],
+                      'urllib3',
+                      'jupyter'],
     extras_require=extras,
 )
