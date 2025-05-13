@@ -35,7 +35,8 @@ test_deps = [
     'mypy',
     'pytest',
     'pytest-cov',
-    'validate_version_code'
+    'validate_version_code',
+    'jupyter',
 ]
 
 extras = {
@@ -86,7 +87,6 @@ setup(
                       'types-requests',
                       'responses==0.10.12',
                       'tqdm',
-                      'urllib3',
-                      'jupyter'],
+                      'urllib3']
     extras_require=extras,
 )

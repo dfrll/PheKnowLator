@@ -19,7 +19,7 @@ jobs:
       - name: Install Requirements and Dependencies
         run: |
           pip install --upgrade pip setuptools
-          pip install
+          pip install -e .[test]
 
       - name: Jupyter
         run: |
