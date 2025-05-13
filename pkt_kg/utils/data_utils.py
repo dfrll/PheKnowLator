@@ -40,7 +40,7 @@ import re
 import requests
 import shutil
 import urllib3  # type: ignore
-import urlparse
+from urllib.parse import urlparse
 
 from contextlib import closing
 from io import BytesIO

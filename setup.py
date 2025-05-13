@@ -88,6 +88,6 @@ setup(
                       'responses==0.10.12',
                       'tqdm',
                       'urllib3',
-                      'urlparse'],
+                      'urllib'],
     extras_require=extras,
 )
